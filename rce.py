@@ -133,7 +133,7 @@ async def websocket_shell(target: str, ws_port: int, token: str, ssh_user: str =
 
 def main():
     parser = argparse.ArgumentParser(
-        description="CyberPanel <= 2.4.9 Authenticated File Read + RCE Chain"
+        description="CyberPanel <= 3.0.0 Authenticated File Read + RCE Chain"
     )
     parser.add_argument("target", help="Target IP or hostname")
     parser.add_argument("username", help="CyberPanel admin username")
