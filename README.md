@@ -4,5 +4,5 @@
 
  Usage:
 ```
-python3 exploit.py <target_ip> <admin_user> <admin_password>
+python3 rce.py <target_ip> <admin_user> <admin_password>
 ```
