@@ -1,6 +1,6 @@
 #Authenticated RCE for CyberPanel.
 
- This exploit chains CVE-2026-67614 and CVE-2026-67613. 
+ This exploit chains two vulnerabilities found by me, CVE-2026-67614 and CVE-2026-67613. 
 
  Usage:
 ```
