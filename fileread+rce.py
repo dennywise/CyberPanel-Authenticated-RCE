@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-CyberPanel <= 2.4.9 - Authenticated Arbitrary File Read + Harcoded JWT Secret to RCE
-CVE: TBD
+CyberPanel <= 3.0.0 - Authenticated Arbitrary File Read + Harcoded JWT Secret to RCE
+CVEs: CVE-2026-67613 & CVE-2026-67614
 
 Exploit Chain:
   Step 1: cloudAPI ReadReport (no path validation) -> read fastapi_ssh_server.py
