@@ -15,9 +15,9 @@ Requirements:
   - Port 8888 accessible from attacker machine
 
 Usage:
-  python3 exploit.py <target_ip> <admin_user> <admin_password>
-  python3 exploit.py <target_ip> <admin_user> <admin_password> --panel-port 8090 --ws-port 8888
-  python3 exploit.py 192.168.1.31 admin MyPassword123
+  python3 rce.py <target_ip> <admin_user> <admin_password>
+  python3 rce.py <target_ip> <admin_user> <admin_password> --panel-port 8090 --ws-port 8888
+  python3 rce.py 192.168.1.31 admin MyPassword123
 
 Author: Deniz Mert
 """
